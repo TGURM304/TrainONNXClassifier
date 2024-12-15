@@ -1,0 +1,68 @@
+训练时长: 750.56 秒
+训练集样本总数: 2488
+验证集样本总数: 804
+训练批次大小: 16
+验证批次大小: 16
+训练轮数: 100
+模型概况:
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d (Conv2D)             (None, 62, 62, 32)        896       
+                                                                 
+ batch_normalization (BatchN  (None, 62, 62, 32)       128       
+ ormalization)                                                   
+                                                                 
+ max_pooling2d (MaxPooling2D  (None, 31, 31, 32)       0         
+ )                                                               
+                                                                 
+ conv2d_1 (Conv2D)           (None, 29, 29, 64)        18496     
+                                                                 
+ batch_normalization_1 (Batc  (None, 29, 29, 64)       256       
+ hNormalization)                                                 
+                                                                 
+ max_pooling2d_1 (MaxPooling  (None, 14, 14, 64)       0         
+ 2D)                                                             
+                                                                 
+ conv2d_2 (Conv2D)           (None, 12, 12, 128)       73856     
+                                                                 
+ batch_normalization_2 (Batc  (None, 12, 12, 128)      512       
+ hNormalization)                                                 
+                                                                 
+ max_pooling2d_2 (MaxPooling  (None, 6, 6, 128)        0         
+ 2D)                                                             
+                                                                 
+ conv2d_3 (Conv2D)           (None, 4, 4, 256)         295168    
+                                                                 
+ batch_normalization_3 (Batc  (None, 4, 4, 256)        1024      
+ hNormalization)                                                 
+                                                                 
+ max_pooling2d_3 (MaxPooling  (None, 2, 2, 256)        0         
+ 2D)                                                             
+                                                                 
+ flatten (Flatten)           (None, 1024)              0         
+                                                                 
+ dense (Dense)               (None, 256)               262400    
+                                                                 
+ dropout (Dropout)           (None, 256)               0         
+                                                                 
+ dense_1 (Dense)             (None, 8)                 2056      
+                                                                 
+=================================================================
+Total params: 654,792
+Trainable params: 653,832
+Non-trainable params: 960
+_________________________________________________________________
+
+
+训练参数:
+优化器: Adam
+损失函数: Categorical Crossentropy
+评估指标: Accuracy
+
+模型输入输出信息:
+输入: (None, 64, 64, 3)
+输出: (None, 8)
+输入数据类型: <dtype: 'float32'>
+输出数据类型: <dtype: 'float32'>
