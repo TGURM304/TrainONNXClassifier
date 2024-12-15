@@ -18,10 +18,10 @@
 
 ```
 project/
-├── datasets/          # 数据集目录
-│   ├── train/        # 训练数据
-│   └── val/          # 验证数据
-├── training_script.py  # 训练脚本
+├── datasets/           # 数据集目录
+│   ├── train/          # 训练数据
+│   └── val/            # 验证数据
+├── training.py         # 训练脚本
 ├── training_report.png # 训练过程可视化图表
 ├── best.onnx           # 转换后的 ONNX 模型
 └── training_info.txt   # 训练信息
