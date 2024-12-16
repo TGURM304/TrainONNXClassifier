@@ -63,10 +63,11 @@ datasets/
     └── 7/  # null 的数据集
 ```
 ### 示例数据集
-![1](img/1.png) ![2](img/2.jpg)
-![3](img/3.jpg) ![4](img/4.jpg)
-![base](img/base.png) ![qsz](img/qsz.png)
-![sb](img/sb.jpg) ![null](img/null.jpg)
+<img src="img/1.png" alt="1" width="64" height="64"> <img src="img/2.jpg" alt="2" width="64" height="64">
+<img src="img/3.jpg" alt="3" width="64" height="64"> <img src="img/4.jpg" alt="4" width="64" height="64">
+<img src="img/base.png" alt="base" width="64" height="64"> <img src="img/qsz.png" alt="qsz" width="64" height="64">
+<img src="img/sb.jpg" alt="sb" width="64" height="64"> <img src="img/null.jpg" alt="null" width="64" height="64">
+
 
 ## 运行步骤
 
