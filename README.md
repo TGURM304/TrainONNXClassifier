@@ -32,7 +32,7 @@ project/
 运行本项目需要以下依赖：
 
 - Python == 3.8
-- TensorFlow >= 2.4
+- TensorFlow >= 2.14
 - tf2onnx
 - ONNX
 - matplotlib
